@@ -1,0 +1,16 @@
+h1{
+  font-size: 80px;
+  text-align: center
+}
+
+p{
+  font-weight: bold;
+}
+
+span{
+    font-weight: bold;
+}
+
+#main{
+  margin-top: 200px;
+}

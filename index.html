@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Course Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Course Suggester</h1>
+      <div id="main">
+        <form class="survey">
+          <div class="form-group">
+            <div class="radio">
+              <p>Do you have any programming background?</p>
+              <label>
+                <input type="radio" name="q1" value="1" checked>
+                Yes I'm pretty proficient in programming.
+              </label>
+              </div>
+              <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="2">
+                Taught myself a little on my own.
+              </label>
+              </div>
+              <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="3">
+                none at all
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="radio">
+              <p>What interest in wanting to be a programmer?</p>
+              <label>
+                <input type="radio" name="q2" value="1" checked>
+                Work/Job
+              </label>
+              </div>
+              <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="2">
+                Video Games
+              </label>
+              </div>
+              <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="3">
+                Money
+              </label>
+            </div>
+            <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="4">
+              Designer
+            </label>
+          </div>
+          </div>
+
+          <div class="form-group">
+            <div class="radio">
+              <p>What language are you the most proficient in?</p>
+              <label>
+                <input type="radio" name="q3" value="1" checked>
+                Ruby/Rails
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="2">
+                PHP/Drupal
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="3">
+                Java/Android
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="4">
+                CSS/Design
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="c5">
+                C#/.NET
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="radio" id="q4">
+              <p>Which do you prefer?</p>
+              <label>
+                <input type="radio" name="q4" value="1" checked>
+                Working on design of a webpage to make it look nice.
+              </label>
+              </div>
+              <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="2">
+                Coding behind the scenes to make page functional.
+              </label>
+              </div>
+              <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="3">
+                Database manipulation
+              </label>
+            </div>
+            <div class="radio">
+            <label>
+              <input type="radio" name="q4" value="4">
+              All of the above.
+            </label>
+          </div>
+          </div>
+
+          <button class="btn" type="submit" >Submit</button>
+          <button id="reset" class="btn" type="click">Reset</button>
+        </form>
+        <span id="helpBlock" class="help-inline">please select all fields</span>
+          <div id="rr">
+            <h2>Ruby/Rails</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nobis, eos similique impedit laborum enim quidem, saepe praesentium atque dolorum repellendus quas dolore fuga consectetur repellat? Harum nihil commodi quod?</p>
+          </div>
+          <div id="php">
+            <h2>PHP/Drupal</h2>
+            <img src="img/spock.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nobis, eos similique impedit laborum enim quidem, saepe praesentium atque dolorum repellendus quas dolore fuga consectetur repellat? Harum nihil commodi quod?</p>
+          </div>
+          <div id="java">
+            <h2>Java/Android</h2>
+            <img src="img/scotty.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nobis, eos similique impedit laborum enim quidem, saepe praesentium atque dolorum repellendus quas dolore fuga consectetur repellat? Harum nihil commodi quod?</p>
+          </div>
+          <div id="css">
+            <h2>CSS/Design</h2>
+            <img src="img/uhura.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nobis, eos similique impedit laborum enim quidem, saepe praesentium atque dolorum repellendus quas dolore fuga consectetur repellat? Harum nihil commodi quod?</p>
+          </div>
+          <div id="csharp">
+            <h2>C#/.NET</h2>
+            <img src="img/uhura.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nobis, eos similique impedit laborum enim quidem, saepe praesentium atque dolorum repellendus quas dolore fuga consectetur repellat? Harum nihil commodi quod?</p>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
