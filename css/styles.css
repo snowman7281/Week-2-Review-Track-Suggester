@@ -59,6 +59,7 @@ img{
   padding: 5px;
   width: 300px;
   border: 2px solid black;
+  float: left;
 }
 
 .btn{
@@ -82,8 +83,6 @@ label{
 }
 
 .output{
-  background-color: white;
-  float: left;
   padding: 10px;
-  border: 2px solid black;
+  font-weight: bold;
 }
