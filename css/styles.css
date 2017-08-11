@@ -29,6 +29,8 @@ p{
 
 span{
     font-weight: bold;
+    display: none;*/
+    color: red;
 }
 
 #main{
