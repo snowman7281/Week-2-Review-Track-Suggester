@@ -10,50 +10,50 @@ $(document).ready(function(){
   var $output = $(".output");
   var result = q1Input + q2Input + q3Input + q4Input + q5Input;
 
-  if (result <= 5){
-    $(".form-group").hide();
-    $("#css").show();
+  if (result <= 5 && firstName !== "" && lastName !== ""){
+    $(".form-group").fadeOut();
+    $("#css").fadeIn().show();
     $output.text("Thank you " + firstName + " " + lastName + " for your taking the survey.  After a careful review we recommend you the course below");
     $("#csharp").hide();
     $("#php").hide();
     $("#java").hide();
     $("#rr").hide();
-  } else if (result > 5 && result <= 10){
-    $(".form-group").hide();
-    $("#csharp").show();
+  } else if (result > 5 && result <= 10 && firstName !== "" && lastName !== ""){
+    $(".form-group").fadeOut();
+    $("#csharp").fadeIn().show();
     $output.text("Thank you " + firstName + " " + lastName + " for your taking the survey.  After a careful review we recommend you the course below");
     $("#css").hide();
     $("#php").hide();
     $("#java").hide();
     $("#rr").hide();
-  }else if (result > 10 && result <= 15){
-    $(".form-group").hide();
-    $("#php").show();
+  }else if (result > 10 && result <= 15 && firstName !== "" && lastName !== ""){
+    $(".form-group").fadeOut();
+    $("#php").fadeIn().show();
     $output.text("Thank you " + firstName + " " + lastName + " for your taking the survey.  After a careful review we recommend you the course below");
     $("#csharp").hide();
     $("#css").hide();
     $("#java").hide();
     $("#rr").hide();
-  }else if (result > 15 && result <= 20){
-    $(".form-group").hide();
-    $("#java").show();
+  }else if (result > 15 && result <= 20 && firstName !== "" && lastName !== ""){
+    $(".form-group").fadeOut();
+    $("#java").fadeIn().show();
     $output.text("Thank you " + firstName + " " + lastName + " for your taking the survey.  After a careful review we recommend you the course below");
     $("#csharp").hide();
     $("#php").hide();
     $("#css").hide();
     $("#rr").hide();
-  }else if (result > 20){
-    $(".form-group").hide();
-    $("#rr").show();
+  }else if (result > 20 && firstName !== "" && lastName !== ""){
+    $(".form-group").fadeOut();
+    $("#rr").fadeIn().show();
     $output.text("Thank you " + firstName + " " + lastName + " for your taking the survey.  After a careful review we recommend you the course below");
     $("#csharp").hide();
     $("#php").hide();
     $("#java").hide();
     $("#css").hide();
   }else{
-    $("span").show();
+    $("span").fadeIn();
   }
-  
+
     event.preventDefault();
   });
 });
