@@ -10,6 +10,7 @@ $(document).ready(function(){
   var $output = $(".output");
   var result = q1Input + q2Input + q3Input + q4Input + q5Input;
 
+
   if (result <= 5 && firstName !== "" && lastName !== ""){
     $(".form-group").fadeOut();
     $("#css").fadeIn().show();
@@ -18,6 +19,7 @@ $(document).ready(function(){
     $("#php").hide();
     $("#java").hide();
     $("#rr").hide();
+    $("span").fadeOut();
   } else if (result > 5 && result <= 10 && firstName !== "" && lastName !== ""){
     $(".form-group").fadeOut();
     $("#csharp").fadeIn().show();
@@ -26,6 +28,7 @@ $(document).ready(function(){
     $("#php").hide();
     $("#java").hide();
     $("#rr").hide();
+    $("span").fadeOut();
   }else if (result > 10 && result <= 15 && firstName !== "" && lastName !== ""){
     $(".form-group").fadeOut();
     $("#php").fadeIn().show();
@@ -34,6 +37,7 @@ $(document).ready(function(){
     $("#css").hide();
     $("#java").hide();
     $("#rr").hide();
+    $("span").fadeOut();
   }else if (result > 15 && result <= 20 && firstName !== "" && lastName !== ""){
     $(".form-group").fadeOut();
     $("#java").fadeIn().show();
@@ -42,6 +46,7 @@ $(document).ready(function(){
     $("#php").hide();
     $("#css").hide();
     $("#rr").hide();
+    $("span").fadeOut();
   }else if (result > 20 && firstName !== "" && lastName !== ""){
     $(".form-group").fadeOut();
     $("#rr").fadeIn().show();
@@ -50,6 +55,7 @@ $(document).ready(function(){
     $("#php").hide();
     $("#java").hide();
     $("#css").hide();
+    $("span").fadeOut();
   }else{
     $("span").fadeIn();
   }
