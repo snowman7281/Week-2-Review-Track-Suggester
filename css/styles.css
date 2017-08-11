@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 #csharp{
   display: none;
 }
@@ -20,24 +22,68 @@
 
 h1{
   font-size: 80px;
-  text-align: center
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
 }
 
 p{
   font-weight: bold;
 }
 
+body{
+  background-image: url(https://umad.com/img/2015/2/computer-keyboard-wallpaper-3720-3920-hd-wallpapers.jpg);
+  background-size: 100% 100%;
+}
+
 span{
     font-weight: bold;
-    display: none;*/
+    display: none;
     color: red;
+    text-align: center;
 }
 
 #main{
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 img{
   width: 200px;
   height: 200px;
+}
+
+.form-group{
+  margin: 20px;
+  margin-left: 100px;
+  background-color: white;
+  padding: 5px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.btn{
+  margin-left: 300px;
+  border: 1px solid black;
+}
+
+#students{
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+}
+
+.container{
+  max-width: 1000px;
+  max-height: 2000px;
+}
+
+label{
+  font-weight: bold;
+}
+
+.output{
+  background-color: white;
+  float: left;
+  padding: 10px;
+  border: 2px solid black;
 }
